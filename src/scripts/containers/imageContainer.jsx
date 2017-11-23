@@ -114,8 +114,8 @@ class ImageContainer extends React.Component {
                               <div className="vrWrapper">        
                                      <a-scene>
                                             <a-assets>
-                                                <a-asset-item id="objItem" src={objLoc}></a-asset-item>
-                                                <a-asset-item id="mtlItem" src={mtlLoc}></a-asset-item>
+                                                <a-asset-item id="objItem" src={objUrl}></a-asset-item>
+                                                <a-asset-item id="mtlItem" src={mtlUrl}></a-asset-item>
                                                 <img id="texture" src={imageUrl} crossOrigin="anonymous"/>                                                
                                             </a-assets>                               
                                             <a-sky color="#75FF33" />
