@@ -7,8 +7,7 @@ var config = {
     output: {
         path: path.resolve(__dirname, "src"),
         filename: "bundle.js"
-    },
-    watch:true,
+    },   
     module: {
         rules: [{        
                 test: /\.js?/,
