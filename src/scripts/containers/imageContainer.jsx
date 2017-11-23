@@ -87,16 +87,7 @@ class ImageContainer extends React.Component {
                 rotation:"0 -45 0",
             }
         ];
-            // AJAX request using fetch api
-            fetch(mtlUrl,{ mode: 'no-cors' }).then((response) => {
-                console.log("first",response.json())
-                return response.json();
-            }).then((data) => {    
-               console.log("sec",data)
-                }).catch((err) => {
-                console.log(err);
-            });
-
+           
         let modalBox = this.state.modalIsOpen ? 
                         <Modal
                             isOpen={this.state.modalIsOpen}
@@ -106,16 +97,12 @@ class ImageContainer extends React.Component {
                             imageUrl={imageUrl}
                             contentLabel="Example Modal"
                         >                                                      
-                            {/* <img src={imageUrl} 
-                                className="img-rounded" 
-                                alt={name} 
-                                onClick={()=>this.openModal()}
-                            />  */}
+                            
                               <div className="vrWrapper">        
                                      <a-scene>
                                             <a-assets>
-                                                <a-asset-item id="objItem" src={objUrl}></a-asset-item>
-                                                <a-asset-item id="mtlItem" src={mtlUrl}></a-asset-item>
+                                                <a-asset-item id="objItem" src={objLoc}></a-asset-item>
+                                                <a-asset-item id="mtlItem" src={mtlLoc}></a-asset-item>
                                                 <img id="texture" src={imageUrl} crossOrigin="anonymous"/>                                                
                                             </a-assets>                               
                                             <a-sky color="#75FF33" />
@@ -127,14 +114,7 @@ class ImageContainer extends React.Component {
                                                         repeat="indefinite">
                                                 </a-animation>
                                             </a-obj-model>             
-                                            {/* <a-entity obj-model="obj:#objItem" material="src:#texture" position="0 1 -5">
-                                            <a-animation attribute="rotation"
-                                                    dur="10000"
-                                                    fill="forwards"
-                                                    to="0 360 0"
-                                                    repeat="indefinite">
-                                            </a-animation>
-                                            </a-entity>                               */}
+                                  
                                             <a-entity position={posArray[this.state.pointer].position} rotation={posArray[this.state.pointer].rotation}>
                                                 <a-camera user-height={userHeight}></a-camera>                                                
                                             </a-entity>
