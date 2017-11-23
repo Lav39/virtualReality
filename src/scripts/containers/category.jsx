@@ -12,7 +12,8 @@ class Category extends React.Component {
         this.lowerLimit = 0, this.upperLimit = 2, this.currentValue = 0;
     }    
     slideImage(event){    
-        let temp = parseInt(event.target.value/10);        
+        let temp = parseInt(event.target.value/10);    
+        temp = temp == 1 ? 2 : temp;      
         let totalItem = this.props.models.length;
         if(this.currentValue !== temp){
             this.currentValue = temp;
