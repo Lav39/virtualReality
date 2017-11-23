@@ -87,7 +87,7 @@ class ImageContainer extends React.Component {
                 rotation:"0 -45 0",
             }
         ];
-           
+          
         let modalBox = this.state.modalIsOpen ? 
                         <Modal
                             isOpen={this.state.modalIsOpen}
@@ -96,8 +96,8 @@ class ImageContainer extends React.Component {
                             style={customStyles}
                             imageUrl={imageUrl}
                             contentLabel="Example Modal"
-                        >                                                      
-                            
+                        >                                                     
+                           
                               <div className="vrWrapper">        
                                      <a-scene>
                                             <a-assets>
@@ -113,13 +113,14 @@ class ImageContainer extends React.Component {
                                                         to={rotationType}
                                                         repeat="indefinite">
                                                 </a-animation>
-                                            </a-obj-model>             
-                                  
+                                            </a-obj-model> 
                                             <a-entity position={posArray[this.state.pointer].position} rotation={posArray[this.state.pointer].rotation}>
                                                 <a-camera user-height={userHeight}></a-camera>                                                
-                                            </a-entity>
+                                            </a-entity>                                                                                                                                  
+                                            <a-light type="spot" color="#fff" position={posArray[this.state.pointer].position} rotation={posArray[this.state.pointer].rotation} look-at="a-obj-model" intensity="1.5"> </a-light>
+                                            
                                     </a-scene>                              
-                            </div>
+                                </div>
                         </Modal>:"";
         return (
             <div className="col-lg-3 imageTile">                             
