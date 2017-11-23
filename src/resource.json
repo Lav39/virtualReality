@@ -11,7 +11,8 @@
             "mtlloc":"../../../assests/BisonPlains.mtl",
             "objloc":"../../../assests/BisonPlains.obj",
             "scale":"normal",
-            "userHeight":"mid","rotationType":"horizontal"
+            "userHeight":"up",
+            "rotationType":"horizontal"
           },
           {
             "name": "Cow",
@@ -21,7 +22,8 @@
             "mtlloc":"../../../assests/Cow expanded.mtl",
             "objloc":"../../../assests/Cow expanded.obj",
             "scale":"normal",
-            "userHeight":"mid","rotationType":"horizontal"
+            "userHeight":"mid",
+            "rotationType":"horizontal"
           },
           {
             "name": "Dog",
@@ -53,7 +55,8 @@
             "mtlloc":"../../../assests/Mesh_Emu.mtl",
             "objloc":"../../../assests/Mesh_Emu.obj",
             "scale":"zoom out",
-            "userHeight":"mid","rotationType":"horizontal"
+            "userHeight":"mid",
+            "rotationType":"horizontal"
           },
           {
             "name": "Frog",
@@ -72,7 +75,7 @@
             "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Goat/thumbnail.png",
             "mtlloc":"../../../assests/Goat.mtl",
             "objloc":"../../../assests/Goat.obj",
-            "scale":"zoom in",
+            "scale":"normal",
             "userHeight":"up",
             "rotationType":"horizontal"
           },
@@ -185,7 +188,7 @@
             "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Sandwich/thumbnail.png",
             "mtlloc":"../../../assests/sandwich.mtl",
             "objloc":"../../../assests/sandwich.obj",
-            "scale":"ulta zoom in",
+            "scale":"ultra zoom in",
             "userHeight":"mid",
             "rotationType":"horizontal"
           },
@@ -196,8 +199,9 @@
             "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Shrimp/thumbnail.png",
             "mtlloc":"../../../assests/Shrimp.mtl",
             "objloc":"../../../assests/Shrimp.obj",
-            "scale":"normal",
-            "userHeight":"mid","rotationType":"horizontal"
+            "scale":"ultra zoom in",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
           },
           {
             "name": "Steak",
@@ -206,8 +210,9 @@
             "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Steak/thumbnail.png",
             "mtlloc":"../../../assests/Steak.mtl",
             "objloc":"../../../assests/Steak.obj",
-            "scale":"normal",
-            "userHeight":"mid","rotationType":"horizontal"
+            "scale":"ultra zoom in",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
           },
           {
             "name": "Tomato",
@@ -255,7 +260,7 @@
             "objloc":"../../../assests/WING.obj",
             "scale":"ultra zoom in",
             "userHeight":"mid",
-            "rotationType":"horizontal"
+            "rotationType":"vertical"
           },
           {
             "name": "Crate",
@@ -663,7 +668,7 @@
             "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Submarine/thumbnail.png",
             "mtlloc":"../../../assests/submarine.mtl",
             "objloc":"../../../assests/submarine.obj",
-            "scale":"zoom in",
+            "scale":"normal",
             "userHeight":"mid",
             "rotationType":"horizontal"
           },
