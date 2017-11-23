@@ -1,2 +1,2 @@
 # virtualReality
-Test project
+Test project for virtual reality
