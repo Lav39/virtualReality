@@ -1,0 +1,40 @@
+{
+  "name": "ui-react-test",
+  "version": "1.0.0",
+  "description": "Interview project for UI developer with React + Redux",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build",
+    "build": "webpack -d && node server.js",
+    "webpack": "webpack",
+    "server": "node server.js"
+  },
+  "keywords": [
+    "reactjs"
+  ],
+  "engines": {
+    "node": "8.9.0"
+  },
+  "author": "Lavkush Kumar",
+  "license": "none",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-2": "^6.11.0",
+    "express": "^4.16.2",
+    "idb": "^2.0.4",
+    "prop-types": "^15.5.10",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-modal": "^3.1.2",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}

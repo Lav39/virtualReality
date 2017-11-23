@@ -1,0 +1,684 @@
+{
+    "categories":  [
+      {
+        "name": "Animals",
+        "models": [
+          {
+            "name": "Bison",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Bison/BisonPlains.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Bison/BisonPlains.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Bison/thumbnail.png",
+            "mtlloc":"../../../assests/BisonPlains.mtl",
+            "objloc":"../../../assests/BisonPlains.obj",
+            "scale":"normal",
+            "userHeight":"mid","rotationType":"horizontal"
+          },
+          {
+            "name": "Cow",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Cow/Cow expanded.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Cow/Cow expanded.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Cow/thumbnail.png",
+            "mtlloc":"../../../assests/Cow expanded.mtl",
+            "objloc":"../../../assests/Cow expanded.obj",
+            "scale":"normal",
+            "userHeight":"mid","rotationType":"horizontal"
+          },
+          {
+            "name": "Dog",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Dog/materials.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Dog/model_High+Quality+Scanned+and+cleaned+dog_20170522_225430513.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Dog/thumbnail.png",
+            "mtlloc":"../../../assests/materials.mtl",
+            "objloc":"../../../assests/model_High+Quality+Scanned+and+cleaned+dog_20170522_225430513.obj",
+            "scale":"zoom out",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Elephant",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Elephant/materials.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Elephant/model_20170406_213946035.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Elephant/thumbnail.png",
+            "mtlloc":"../../../assests/Elephant.mtl",
+            "objloc":"../../../assests/model_20170406_213946035.obj",
+            "scale":"zoom out",
+            "userHeight":"mid",
+            "rotationType":"vertical"
+          },
+          {
+            "name": "Emu",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Emu/Mesh_Emu.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Emu/Mesh_Emu.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Emu/thumbnail.png",
+            "mtlloc":"../../../assests/Mesh_Emu.mtl",
+            "objloc":"../../../assests/Mesh_Emu.obj",
+            "scale":"zoom out",
+            "userHeight":"mid","rotationType":"horizontal"
+          },
+          {
+            "name": "Frog",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Frog/Frog.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Frog/Frog.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Frog/thumbnail.png",
+            "mtlloc":"../../../assests/Frog.mtl",
+            "objloc":"../../../assests/Frog.obj",
+            "scale":"normal",
+            "userHeight":"mid","rotationType":"horizontal"
+          },
+          {
+            "name": "Goat",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Goat/Goat.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Goat/Goat.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Goat/thumbnail.png",
+            "mtlloc":"../../../assests/Goat.mtl",
+            "objloc":"../../../assests/Goat.obj",
+            "scale":"zoom in",
+            "userHeight":"up",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Seahorse",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Seahorse/seahorse.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Seahorse/seahorse.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Seahorse/thumbnail.png",
+            "mtlloc":"../../../assests/seahorse.mtl",
+            "objloc":"../../../assests/seahorse.obj",
+            "scale":"normal",
+            "userHeight":"up",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Shark",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Shark/Shark.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Shark/Shark.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Shark/thumbnail.png",
+            "mtlloc":"../../../assests/Shark.mtl",
+            "objloc":"../../../assests/Shark.obj",
+            "scale":"normal",
+            "userHeight":"mid","rotationType":"horizontal"
+          },
+          {
+            "name": "Snail",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Snail/Snail_01.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Snail/Snail_01.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Animals/Snail/thumbnail.png",
+            "mtlloc":"../../../assests/Snail_01.mtl",
+            "objloc":"../../../assests/Snail_01.obj",
+            "scale":"normal",
+            "userHeight":"mid","rotationType":"horizontal"
+          }
+        ]
+      },
+      {
+        "name": "Foods",
+        "models": [
+          {
+            "name": "Cabbage",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Cabbage/Cabbage_01.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Cabbage/Cabbage_01.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Cabbage/thumbnail.png",
+            "mtlloc":"../../../assests/Cabbage_01.mtl",
+            "objloc":"../../../assests/Cabbage_01.obj",
+            "scale":"normal",
+            "userHeight":"mid",
+            "rotationType":"horizontal"      
+          },
+          {
+            "name": "Corn",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Corn/EarOfCorn_220.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Corn/EarOfCorn_220.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Corn/thumbnail.png",
+            "mtlloc":"../../../assests/EarOfCorn_220.mtl",
+            "objloc":"../../../assests/EarOfCorn_220.obj",
+            "scale":"zoom out",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Donut",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Donut/donut.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Donut/donut.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Donut/thumbnail.png",
+            "mtlloc":"../../../assests/donut.mtl",
+            "objloc":"../../../assests/donut.obj",
+            "scale":"zoom in",
+            "userHeight":"mid",
+            "rotationType":"vertical"
+          },
+          {
+            "name": "Grapes",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Grapes/Grapes_01.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Grapes/Grapes_01.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Grapes/thumbnail.png",
+            "mtlloc":"../../../assests/Grapes_01.mtl",
+            "objloc":"../../../assests/Grapes_01.obj",
+            "scale":"zoom out",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Lollipop",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Lollipop/CHAHIN_LOLLIPOP.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Lollipop/CHAHIN_LOLLIPOP.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Lollipop/thumbnail.png",
+            "mtlloc":"../../../assests/CHAHIN_LOLLIPOP.mtl",
+            "objloc":"../../../assests/CHAHIN_LOLLIPOP.obj",
+            "scale":"zoom in",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Popsicle",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Popsicle/Popsicle.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Popsicle/Popsicle.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Popsicle/thumbnail.png",
+            "mtlloc":"../../../assests/Popsicle.mtl",
+            "objloc":"../../../assests/Popsicle.obj",
+            "scale":"normal",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Sandwich",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Sandwich/materials.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Sandwich/model.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Sandwich/thumbnail.png",
+            "mtlloc":"../../../assests/sandwich.mtl",
+            "objloc":"../../../assests/sandwich.obj",
+            "scale":"ulta zoom in",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Shrimp",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Shrimp/materials.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Shrimp/model.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Shrimp/thumbnail.png",
+            "mtlloc":"../../../assests/Shrimp.mtl",
+            "objloc":"../../../assests/Shrimp.obj",
+            "scale":"normal",
+            "userHeight":"mid","rotationType":"horizontal"
+          },
+          {
+            "name": "Steak",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Steak/materials.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Steak/model.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Steak/thumbnail.png",
+            "mtlloc":"../../../assests/Steak.mtl",
+            "objloc":"../../../assests/Steak.obj",
+            "scale":"normal",
+            "userHeight":"mid","rotationType":"horizontal"
+          },
+          {
+            "name": "Tomato",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Tomato/Tomato_01.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Tomato/Tomato_01.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Food/Tomato/thumbnail.png",
+            "mtlloc":"../../../assests/Tomato_01.mtl",
+            "objloc":"../../../assests/Tomato_01.obj",
+            "scale":"normal",
+            "userHeight":"mid","rotationType":"horizontal"
+          }
+        ]
+      },
+      {
+        "name": "Furniture",
+        "models": [
+          {
+            "name": "Arch",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Arch/Archway3.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Arch/Archway3.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Arch/thumbnail.png",
+            "mtlloc":"../../../assests/Archway3.mtl",
+            "objloc":"../../../assests/Archway3.obj",
+            "scale":"ultra zoom out",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Bird_House",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Bird_House/materials.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Bird_House/model.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Bird_House/thumbnail.png",
+            "mtlloc":"../../../assests/Bird_House.mtl",
+            "objloc":"../../../assests/Bird_House.obj",
+            "scale":"ultra zoom in",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Chair",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Chair/WING.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Chair/WING.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Chair/thumbnail.png",
+            "mtlloc":"../../../assests/WING.mtl",
+            "objloc":"../../../assests/WING.obj",
+            "scale":"ultra zoom in",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Crate",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Crate/materials.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Crate/model.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Crate/thumbnail.png",
+            "mtlloc":"../../../assests/Crate.mtl",
+            "objloc":"../../../assests/Crate.obj",
+            "scale":"ultra zoom in",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Desk",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Desk/materials.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Desk/model.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Desk/thumbnail.png",
+            "mtlloc":"../../../assests/Desk.mtl",
+            "objloc":"../../../assests/Desk.obj",
+            "scale":"ultra zoom in",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Door",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Door/CHAHIN_DOOR.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Door/CHAHIN_DOOR.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Door/thumbnail.png",
+            "mtlloc":"../../../assests/CHAHIN_DOOR.mtl",
+            "objloc":"../../../assests/CHAHIN_DOOR.obj",
+            "scale":"ultra zoom in",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Fence",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Fence/CHAHIN_FENCE.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Fence/CHAHIN_FENCE.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Fence/thumbnail.png",
+            "mtlloc":"../../../assests/CHAHIN_FENCE.mtl",
+            "objloc":"../../../assests/CHAHIN_FENCE.obj",
+            "scale":"ultra zoom in",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Light",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Light/materials.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Light/model.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Light/thumbnail.png",
+            "mtlloc":"../../../assests/Light.mtl",
+            "objloc":"../../../assests/Light.obj",
+            "scale":"ultra zoom in",
+            "userHeight":"mid",
+            "rotationType":"vertical"
+          },
+          {
+            "name": "Toilet",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Toilet/materials.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Toilet/model.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Toilet/thumbnail.png",
+            "mtlloc":"../../../assests/Toilet.mtl",
+            "objloc":"../../../assests/Toilet.obj",
+            "scale":"ultra zoom in",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Window",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Window/CHAHIN_WINDOW.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Window/CHAHIN_WINDOW.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Furniture/Window/thumbnail.png",
+            "mtlloc":"../../../assests/CHAHIN_WINDOW.mtl",
+            "objloc":"../../../assests/CHAHIN_WINDOW.obj",
+            "scale":"ultra zoom in",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          }
+        ]
+      },
+      {
+        "name": "Nature",
+        "models": [
+          {
+            "name": "Cactus",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Cactus/materials.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Cactus/model.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Cactus/thumbnail.png",
+            "mtlloc":"../../../assests/Cactus.mtl",
+            "objloc":"../../../assests/Cactus.obj",
+            "scale":"ultra zoom in",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Cloud",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Cloud/Cloud.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Cloud/Cloud.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Cloud/thumbnail.png",
+            "mtlloc":"../../../assests/Cloud.mtl",
+            "objloc":"../../../assests/Cloud.obj",
+            "scale":"normal",
+            "userHeight":"mid","rotationType":"horizontal"
+          },
+          {
+            "name": "Flower",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Flower/Flower.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Flower/Flower.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Flower/thumbnail.png",
+            "mtlloc":"../../../assests/Flower.mtl",
+            "objloc":"../../../assests/Flower.obj",
+            "scale":"zoom out",
+            "userHeight":"up",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Hibiscus",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Hibiscus/HibicusFlower.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Hibiscus/HibicusFlower.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Hibiscus/thumbnail.png",
+            "mtlloc":"../../../assests/HibicusFlower.mtl",
+            "objloc":"../../../assests/HibicusFlower.obj",
+            "scale":"normal",
+            "userHeight":"up",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Log",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Log/PUSHILIN_log.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Log/PUSHILIN_log.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Log/thumbnail.png",
+            "mtlloc":"../../../assests/PUSHILIN_log.mtl",
+            "objloc":"../../../assests/PUSHILIN_log.obj",
+            "scale":"ultra zoom in",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Nest",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Nest/PUSHILIN_birds_nest.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Nest/PUSHILIN_birds_nest.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Nest/thumbnail.png",
+            "mtlloc":"../../../assests/PUSHILIN_birds_nest.mtl",
+            "objloc":"../../../assests/PUSHILIN_birds_nest.obj",
+            "scale":"ultra zoom in",
+            "userHeight":"mid",
+            "rotationType":"vertical"
+          },
+          {
+            "name": "Palm",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Palm/AlexandraPalmTree.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Palm/AlexandraPalmTree.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Palm/thumbnail.png",
+            "mtlloc":"../../../assests/AlexandraPalmTree.mtl",
+            "objloc":"../../../assests/AlexandraPalmTree.obj",
+            "scale":"normal",
+            "userHeight":"up",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Pine",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Pine/PineTree.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Pine/PineTree.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Pine/thumbnail.png",
+            "mtlloc":"../../../assests/PineTree.mtl",
+            "objloc":"../../../assests/PineTree.obj",
+            "scale":"normal",
+            "userHeight":"up",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Rose",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Rose/PUSHILIN_rose.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Rose/PUSHILIN_rose.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Rose/thumbnail.png",
+            "mtlloc":"../../../assests/PUSHILIN_rose.mtl",
+            "objloc":"../../../assests/PUSHILIN_rose.obj",
+            "scale":"zoom in",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Tree",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Tree/materials.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Tree/model.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Nature/Tree/thumbnail.png",
+            "mtlloc":"../../../assests/Tree.mtl",
+            "objloc":"../../../assests/Tree.obj",
+            "scale":"zoom in",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          }
+        ]
+      },
+      {
+        "name": "Technology",
+        "models": [
+          {
+            "name": "Bluetooth",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Bluetooth/1315+Bluetooth+Earpiece.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Bluetooth/1315+Bluetooth+Earpiece.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Bluetooth/thumbnail.png",
+            "mtlloc":"../../../assests/1315+Bluetooth+Earpiece.mtl",
+            "objloc":"../../../assests/1315+Bluetooth+Earpiece.obj",
+            "scale":"zoom out",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Camera",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Camera/Camera.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Camera/Camera.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Camera/thumbnail.png",
+            "mtlloc":"../../../assests/Camera.mtl",
+            "objloc":"../../../assests/Camera.obj",
+            "scale":"zoom in",
+            "userHeight":"up",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Gear",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Gear/gear.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Gear/gear.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Gear/thumbnail.png",
+            "mtlloc":"../../../assests/gear.mtl",
+            "objloc":"../../../assests/gear.obj", 
+            "scale":"zoom in",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Headphones",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Headphones/HeadPhones_01(1).obj",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Headphones/HeadPhones_01.mtl",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Headphones/thumbnail.png",
+            "mtlloc":"../../../assests/HeadPhones_01.mtl",
+            "objloc":"../../../assests/HeadPhones_01(1).obj",
+            "scale":"zoom out",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Headset",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Headset/materials.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Headset/model.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Headset/thumbnail.png",
+            "mtlloc":"../../../assests/Headset.mtl",
+            "objloc":"../../../assests/Headset.obj",
+            "scale":"ultra zoom in",
+            "userHeight":"mid",
+            "rotationType":"vertical"
+          },
+          {
+            "name": "Laptop",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Laptop/Laptop.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Laptop/Laptop.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Laptop/thumbnail.png",
+            "mtlloc":"../../../assests/Laptop.mtl",
+            "objloc":"../../../assests/Laptop.obj",
+            "scale":"normal",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Mic",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Mic/CHAHIN_MICROPHONE.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Mic/CHAHIN_MICROPHONE.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Mic/thumbnail.png",
+            "mtlloc":"../../../assests/CHAHIN_MICROPHONE.mtl",
+            "objloc":"../../../assests/CHAHIN_MICROPHONE.obj",
+            "scale":"ultra zoom in",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Phone",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Phone/1327+iPhone.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Phone/1327+iPhone.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Phone/thumbnail.png",
+            "mtlloc":"../../../assests/1327+iPhone.mtl",
+            "objloc":"../../../assests/1327+iPhone.obj",
+            "scale":"zoom out",
+            "userHeight":"mid",
+            "rotationType":"vertical"
+          },
+          {
+            "name": "Printer",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Printer/1322+Printer.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Printer/1322+Printer.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Printer/thumbnail.png",
+            "mtlloc":"../../../assests/1322+Printer.mtl",
+            "objloc":"../../../assests/1322+Printer.obj",
+            "scale":"zoom out",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Videocam",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Videocam/materials.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Videocam/model.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Technology/Videocam/thumbnail.png",
+            "mtlloc":"../../../assests/Videocam.mtl",
+            "objloc":"../../../assests/Videocam.obj",
+            "scale":"ultra zoom in",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          }
+        ]
+      },
+      {
+        "name": "Transport",
+        "models": [
+          {
+            "name": "Glider",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Glider/1357+Hang+Glider.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Glider/1357+Hang+Glider.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Glider/thumbnail.png",
+            "mtlloc":"../../../assests/1357+Hang+Glider.mtl",
+            "objloc":"../../../assests/1357+Hang+Glider.obj",
+            "scale":"zoom out",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Helicopter",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Helicopter/Helicopter_01.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Helicopter/Helicopter_01.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Helicopter/thumbnail.png",
+            "mtlloc":"../../../assests/Helicopter_01.mtl",
+            "objloc":"../../../assests/Helicopter_01.obj",
+            "scale":"normal",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Jet",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Jet/1397+Jet.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Jet/1397+Jet.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Jet/thumbnail.png",
+            "mtlloc":"../../../assests/1397+Jet.mtl",
+            "objloc":"../../../assests/1397+Jet.obj",
+            "scale":"zoom out",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Kayak",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Kayak/1386+Kayak.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Kayak/1386+Kayak.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Kayak/thumbnail.png",
+            "mtlloc":"../../../assests/1386+Kayak.mtl",
+            "objloc":"../../../assests/1386+Kayak.obj",
+            "scale":"zoom out",
+            "userHeight":"mid",
+            "rotationType":"vertical"
+          },
+          {
+            "name": "Nissan",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Nissan/GTR.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Nissan/GTR.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Nissan/thumbnail.png",
+            "mtlloc":"../../../assests/GTR.mtl",
+            "objloc":"../../../assests/GTR.obj",
+            "scale":"zoom in",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Saucer",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Saucer/flying+sacuer.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Saucer/flying+sacuer.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Saucer/thumbnail.png",
+            "mtlloc":"../../../assests/flying+sacuer.mtl",
+            "objloc":"../../../assests/flying+sacuer.obj",
+            "scale":"zoom in",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Scooter",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Scooter/Spirit.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Scooter/Spirit.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Scooter/thumbnail.png",
+            "mtlloc":"../../../assests/Spirit.mtl",
+            "objloc":"../../../assests/Spirit.obj",
+            "scale":"zoom out",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Spaceship",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Spaceship/Lo_poly_Spaceship_01_by_Liz_Reddington.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Spaceship/Lo_poly_Spaceship_01_by_Liz_Reddington.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Spaceship/thumbnail.png",
+            "mtlloc":"../../../assests/Lo_poly_Spaceship_01_by_Liz_Reddington.mtl",
+            "objloc":"../../../assests/Lo_poly_Spaceship_01_by_Liz_Reddington.obj",
+            "scale":"ultra zoom out",
+            "userHeight":"mid",
+            "rotationType":"vertical"
+          },
+          {
+            "name": "Submarine",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Submarine/submarine.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Submarine/submarine.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Submarine/thumbnail.png",
+            "mtlloc":"../../../assests/submarine.mtl",
+            "objloc":"../../../assests/submarine.obj",
+            "scale":"zoom in",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          },
+          {
+            "name": "Unicycle",
+            "mtl": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Unicycle/cupic_monocycle.mtl",
+            "obj": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Unicycle/cupic_monocycle.obj",
+            "thumb": "https://s3.ap-south-1.amazonaws.com/scapic-others/Models/Transport/Unicycle/thumbnail.png",
+            "mtlloc":"../../../assests/cupic_monocycle.mtl",
+            "objloc":"../../../assests/cupic_monocycle.obj",
+            "scale":"zoom out",
+            "userHeight":"mid",
+            "rotationType":"horizontal"
+          }
+        ]
+      }
+    ]
+  }

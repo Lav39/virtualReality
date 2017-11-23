@@ -1,0 +1,112 @@
+#app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;       
+}
+.container-fluid{
+    padding: 0;
+}
+.jumbotron{
+    text-align: center;
+    font-size: 24px;
+    padding: 1rem;
+    font-weight: bold;
+    font-family: cursive;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    height: 10vh;
+    background: #8a8787;
+}
+.categoryContainerWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+}
+.categoryContainer{
+    /* height: 20rem;        */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.imageContainerWrapper{
+    background: linear-gradient(180deg,#929090,#ffffff);
+    margin-top: 10vh;
+    height: 90vh;   
+    overflow: auto;
+}
+.imageTile{
+    height: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.24), 0 1px 2px rgba(0,0,0,0.48);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+    .imageTile:hover {
+        box-shadow: 0 14px 28px rgba(0,0,0,0.50), 0 10px 10px rgba(0,0,0,0.44);
+    }
+    .imageTile > img {
+        height: 90%;
+        width: 100%;
+    }  
+    
+.loadMoreIcon{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .loadMoreIcon > img{
+        height: 30%;
+       
+    }
+
+.vrWrapper{
+    height: 100%;
+    width: 100%;
+}
+.a-canvas{
+    height: 100% !important;
+    width: 100% !important;
+}
+.slider-color {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #9e3535;
+    outline: none;
+    opacity:0.7;
+    -webkit-transition: opacity .15s ease-in-out;
+    transition: opacity .15s ease-in-out;
+  }
+  .slider-color:hover {
+    opacity:1;
+    cursor: pointer;
+  }
+  .slider-color::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(133, 133, 136);
+    cursor: pointer;
+  }
+  .slider-color::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border: 0;
+    border-radius: 50%;
+    background: rgb(133, 136, 133);
+    cursor: pointer;
+  }
+  
